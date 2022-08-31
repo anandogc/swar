@@ -1,0 +1,20 @@
+\documentclass[aps,prl,preprint}}]{revtex4}
+\usepackage{CJK}
+
+\begin{document}
+\begin{CJK*}{GB}{} % Use default fonts from CJK (see below)
+
+\title{ {{values.Title}} }
+{% for author in values.Authors %}
+\author{ {{author}} }
+{% endfor %}
+{% for affiliation in values.Affiliations %}
+\affiliation{ {{ affiliation }} }
+{% endfor %}
+
+% \collaboration{ {{ collaboration }}}
+
+\maketitle
+\end{CJK*}
+{{ document }}
+\end{document}

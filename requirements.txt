@@ -1,0 +1,5 @@
+flask
+Flask-JSONRPC
+
+python-graphql-client
+python-docx
